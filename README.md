@@ -23,7 +23,8 @@ topology:
 
 ```
 After Deploy
+```
 containerlab exec --topo ./clab-sample.yml  --label clab-node-kind'\'=linux --cmd 'ovs-vsctl add-br lan'
 containerlab exec --topo ./clab-sample.yml  --label clab-node-kind'\'=linux --cmd 'ovs-vsctl add-port lan eth1'
 containerlab exec --topo ./clab-sample.yml  --label clab-node-kind'\'=linux --cmd 'ovs-vsctl add-port lan eth2'
-
+```
